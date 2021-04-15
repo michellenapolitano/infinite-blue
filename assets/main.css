@@ -1,0 +1,103 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  background: #e8f4f8;
+  margin-top: 5vw;
+  margin-bottom: 3vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin:0;
+  font-family: 'Shrikhand', cursive;
+  color: lightblue;
+  -webkit-text-stroke: 1.5px darkblue;
+  padding-bottom: 2vw;
+}
+
+  .blue {
+  position: absolute;
+  max-width: 130px;
+  left: 48vw;
+  z-index: -4;
+  top: 16vw;
+}
+
+li {
+  z-index: 4;
+  left: 8vw;
+  top: -4vw;
+  position: relative;
+  text-align: right;
+  font-family: 'Shrikhand', cursive;
+  color: lightblue;
+  -webkit-text-stroke: 0.1px darkblue;
+    font-size: 1rem;
+  opacity: 0.5;
+}
+
+li:hover {
+  opacity: 1;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+.home {
+  max-width: 50%;
+  position: relative;
+}
+.deck {
+  max-width: 600px;
+}
+
+.card {
+  margin-left: 2vw;
+  opacity: 0.6;
+  max-width: 300px;
+  position: relative;
+  display: inline-block;
+}
+
+.card:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.description {
+  top: -6vw;
+  right: -7vw;
+  max-width: 300px;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  font-family: 'Teko', sans-serif;
+  padding: 25px;
+  border: 4px solid blue;
+  border-radius: 25px;
+  background: white;
+  color: darkblue;
+}
+
+.country {
+  margin-left: -23vw;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Teko', sans-serif;
+  border: 4px solid blue;
+  border-radius: 25px;
+    padding: 17px;
+  background: white;
+  color: darkblue;
+  z-index: 1;
+
+}
